@@ -1,0 +1,97 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set base font and background */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    color: #222;
+    line-height: 1.5;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+/* Utility classes */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display:flex;
+    height: 64px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 16px 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 32px;
+    width: auto;
+}
+
+.logo-text {
+    display: flex;
+    margin-left: 8px;
+    text-transform: uppercase;
+}
+
+#colmar {
+    font-weight: bold;
+}
+
+#academy {
+    font-weight: normal;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 16px;
+}
+
+nav a {
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    color: #222
+}
+
+nav a:hover {
+    background-color: #222;
+    color: #fff;
+}
