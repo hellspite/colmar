@@ -30,12 +30,13 @@ img {
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin-bottom: 0.5em;
+    color:#333
 }
 
 /* Utility classes */
 .container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -99,7 +100,6 @@ nav a:hover {
 section {
     display: flex;
     padding: 32px 24px;
-    align-items: center;
     justify-content: space-between;
     text-align: center;
 }
@@ -109,7 +109,16 @@ section.odd {
 }
 
 .banner {
+    align-items: center;
+}
+
+.information {
+    align-items:start
+}
+
+.left {
     width: 60%;
+    text-align: left;
 }
 
 .banner-text {
@@ -124,6 +133,7 @@ section.odd {
     background-color: #333;
     text-align: center;
     padding: 8px 0;
+    transition: background-color 0.5s;
 }
 
 .start:hover {
@@ -134,4 +144,39 @@ section.odd {
     color: #fff;
     width: 100%;
     display: block;
+}
+
+.right-info {
+    width: 40%;
+    text-align: left;
+    margin-left: 24px;
+    border-left: 1px solid #ccc;
+}
+
+.info-box {
+    display: flex;
+    padding: 16px;
+    margin-bottom: 4px;
+    align-items: center;
+}
+
+.grey-box {
+    background-color: #c2c2c2;
+}
+
+.info-image {
+    width: 35%;
+}
+
+.info-text {
+    width: 65%;
+    padding-left: 12px;
+}
+
+.info-text h2, .info-text p {
+    margin-bottom: 8px;
+}
+
+.info-description {
+    font-size: 0.9rem;
 }
