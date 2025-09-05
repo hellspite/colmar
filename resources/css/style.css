@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6 {
     color:#333
 }
 
+h1 {
+    font-size: 3.2rem;
+}
+
 /* Utility classes */
 .container {
     width: 90%;
@@ -108,6 +112,10 @@ section.odd {
     background-color: #c2c2c2;
 }
 
+.learn-section {
+    flex-direction: column;
+}
+
 .banner {
     align-items: center;
 }
@@ -179,4 +187,33 @@ section.odd {
 
 .info-description {
     font-size: 0.9rem;
+}
+
+.learn-title {
+    width: 100%;
+}
+
+.learn-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 32px 40px 0 72px;
+}
+
+.learn-box {
+    width: 30%;
+    height: 500px;
+    text-align: left;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    background-color: white;
+}
+
+.learn-box-content {
+    padding-left: 16px;
+}
+
+.learn-box img {
+    height: auto;
+    margin-bottom: 16px;
 }
