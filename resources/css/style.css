@@ -280,4 +280,18 @@ footer a {
         justify-content: space-around;
         width: 100%;
     }
+
+    section {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .banner-text {
+        width: 100%;
+        font-size: 1rem;
+    }
 }
