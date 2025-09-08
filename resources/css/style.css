@@ -96,7 +96,7 @@ nav a {
     color: #222
 }
 
-nav a:hover {
+nav a:hover, footer a:hover{
     background-color: #222;
     color: #fff;
 }
@@ -238,4 +238,16 @@ section.odd {
 
 .thesis-right .info-box:first-child {
     background-color: #c2c2c2;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: #222;
+    transition: background-color 0.3s;
 }
