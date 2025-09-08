@@ -176,6 +176,10 @@ section.odd {
     background-color: #c2c2c2;
 }
 
+.mobile-image {
+    display: none;
+}
+
 .info-image {
     width: 35%;
 }
@@ -293,5 +297,39 @@ footer a {
     .banner-text {
         width: 100%;
         font-size: 1rem;
+    }
+
+    .info-left {
+        display: none;
+    }
+
+    .right-info {
+        width: 100%;
+        border-left: none;
+        border-bottom: 1px solid #ccc;
+        padding-top: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-box {
+        flex-direction: column;
+    }
+
+    .info-image, .info-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .desktop-image {
+        display: none;
+    }
+    .mobile-image {
+        display: block;
+    }
+
+    .grey-box {
+        background-color: #fff;
     }
 }
