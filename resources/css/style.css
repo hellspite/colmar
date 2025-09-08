@@ -112,7 +112,7 @@ section.odd {
     background-color: #c2c2c2;
 }
 
-.learn-section {
+.learn-section, .thesis-section {
     flex-direction: column;
 }
 
@@ -217,4 +217,25 @@ section.odd {
     height: auto;
     width: 100%;
     margin-bottom: 16px;
+}
+
+.thesis-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.thesis-left {
+    width: 60%;
+    text-align: left;
+}
+
+.thesis-right {
+    width: 40%;
+    text-align: left;
+    margin-left: 24px;
+}
+
+.thesis-right .info-box:first-child {
+    background-color: #c2c2c2;
 }
