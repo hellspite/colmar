@@ -329,7 +329,35 @@ footer a {
         display: block;
     }
 
-    .grey-box {
+    .grey-box, section.odd {
         background-color: #fff;
+    }
+
+    .banner {
+        background-color: #c2c2c2 !important;
+    }
+
+    .learn-boxes {
+        flex-direction: column;
+        align-items: center;
+        margin: 16px auto 32px auto;
+    }
+
+    .learn-box {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        background-color: #c2c2c2;
+        padding: 16px 0 24px 16px;
+        font-size: 1.6rem;
+        margin-bottom: 6px;
+    }
+
+    .learn-box img {
+        display: none;
+    }
+
+    .learn-box-content p {
+        display: none;
     }
 }
