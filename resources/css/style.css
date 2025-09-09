@@ -311,15 +311,21 @@ footer a {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: 0;
     }
 
     .info-box {
         flex-direction: column;
     }
 
-    .info-image, .info-text {
+    .info-image {
         width: 100%;
         padding: 0;
+    }
+
+    .info-text {
+        width: 100%;
+        padding-left: 16px;
     }
 
     .desktop-image {
@@ -358,6 +364,27 @@ footer a {
     }
 
     .learn-box-content p {
+        display: none;
+    }
+
+    .thesis-content {
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
+    .thesis-right {
+        display: none;
+    }
+
+    .thesis-left {
+        width: 100%;
+    }
+
+    .thesis-text {
+        display: none;
+    }
+
+    .footer-right {
         display: none;
     }
 }
